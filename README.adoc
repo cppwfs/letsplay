@@ -1,0 +1,20 @@
+= Can We Play
+
+A Java 8 Function that will accept a comma delimited list of latitude and longitude and return a simple string containing  "Let's Play" if it is sunny or clear else "Not Today".  If an exception occurs it will return "The Coordinates did not return a place we can get a forecast.  Sorry :-(".
+If you include it with a Spring Boot application. and it includes the Spring Boot Web starter you can enter this URL to test the function: http://localhost:8080/canWePlay/34.0265,-84.3564.
+
+== Requirements:
+
+* Java 17 or Above
+
+== Classes:
+
+* CanWePlay contains the Java8 Function that can be incorporated into your app.
+
+== Build:
+
+[source,shell,indent=2]
+----
+$ mvn clean install
+----
+
